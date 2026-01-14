@@ -1,3 +1,22 @@
+# --- Data (keep private) ---
+data/*
+!data/README_data.md
+
+# --- Notebooks ---
+.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Environments ---
+.venv/
+venv/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
